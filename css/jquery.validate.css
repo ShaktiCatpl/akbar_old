@@ -1,0 +1,34 @@
+/**
+ * @author Prashant Gupta
+ * @date 20 September 2009
+ */
+input, select {
+   
+}
+
+input:focus, select:focus {
+    outline: none;
+}
+
+.InputGroup {
+    display: inline-block;
+    padding: 3px 4px;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+
+.ErrorField {
+    border-color: #D00;
+    color: #D00;
+  
+}
+
+span.ValidationErrors {
+    display: block;
+    font: 11px/18px Tahoma,Arial,Helvetica,sans-serif;
+    color: #D00;
+    width: 100%;
+	float:right;
+
+}

@@ -1,0 +1,135 @@
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+
+.shadetabs{
+padding: 5px 0 3px 0;
+margin-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+font: normal 11px Tahoma, Verdana, sans-serif;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+ margin-right:3px;
+float:left;
+width:256px;
+ height:25px;
+ line-height:25px;
+ text-align:center;
+}
+
+.shadetabs li a{
+text-decoration: none;
+color: #464646;
+display:block;
+text-align:center;
+background:url(../images/quote_tabberbg.png) top center no-repeat;
+width:256px;
+ height:25px;
+ line-height:25px;
+ text-align:center;
+
+}
+
+.shadetabs li a:visited{
+
+}
+
+.shadetabs li a:hover{
+color: #464646;
+ background:url(../images/quote_tabberbg_active.png) top center no-repeat;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+top: 1px;
+color:#464646;
+border-bottom:none;
+font-weight:bold;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+ background:url(../images/quote_tabberbg_active.png) top center no-repeat;
+
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+
+.shadetabs1{
+padding: 0px 0 0px 0;
+margin-left: 0;
+border-bottom:1px solid #bce1b0;
+margin-bottom: 0;
+height:32px;
+font: bold 12px Tahoma, Verdana, sans-serif;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs1 li{
+display: inline;
+float:left;
+width:108px;
+ height:32px;
+ line-height:32px;
+ text-align:center;
+ margin-top:1px;
+}
+
+.shadetabs1 li a{
+text-decoration: none;
+color: #464646;
+display:block;
+text-align:center;
+ background:url(../images/tabber_bg1.png) top center no-repeat;
+width:108px;
+ height:32px;
+ line-height:32px;
+ text-align:center;
+
+}
+
+.shadetabs1 li a:visited{
+
+}
+
+.shadetabs1 li a:hover{
+color: #187042;
+background:url(../images/tabber_active1.png) top center no-repeat;
+}
+
+.shadetabs1 li a.selected{ /*selected main tab style */
+top: 1px;
+color:#187042;
+border-bottom:none;
+}
+
+.shadetabs1 li a.selected{ /*selected main tab style */
+ background:url(../images/tabber_active1.png) top center no-repeat;
+
+}
+
+.shadetabs1 li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+
+.tabcontentstyle{ /*style of tab content oontainer*/
+width: 235px;
+margin-bottom: 1em;
+padding: 20px;
+}

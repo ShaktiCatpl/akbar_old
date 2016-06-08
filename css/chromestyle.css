@@ -1,0 +1,32 @@
+
+.dropmenudiv_in{
+position:absolute;
+top: 0;
+border:1px solid #e2e2e2; /*THEME CHANGE HERE*/
+font:normal 12px Verdana;
+line-height:25px;
+z-index:100;
+background-color: #ffffff;
+width: 130px;
+visibility: hidden;
+margin-left:-87px;
+padding:2px 0px;
+}
+
+
+.dropmenudiv_in a{
+border-bottom: 0px solid #0294e7; /*THEME CHANGE HERE*/
+padding: 0px 0;
+text-decoration: none;
+font-weight: bold;
+color: #fff;
+background:none;
+}
+
+* html .dropmenudiv_in a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv_in a:hover{ /*THEME CHANGE HERE*/
+background: none;
+}

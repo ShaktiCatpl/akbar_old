@@ -1,0 +1,156 @@
+.jqueryslidemenu{
+	margin:auto;
+	width:1000px;
+	background:url(../images/mid_navbg.jpg) top center no-repeat;
+	height:55px;
+
+}
+
+.jqueryslidemenu ul{
+float:left;
+	padding:0 0px;
+	margin:0 0px;
+	list-style:none;
+}
+
+/*Top level list items*/
+.jqueryslidemenu ul li{
+position: relative;
+display: inline;
+float: left;
+background:url(../images/nav_devider.jpg) right top no-repeat;
+
+}
+
+/*Top level menu link items style*/
+.jqueryslidemenu ul li a{
+float:left;
+	padding:0 20px!Important;
+	margin:0 0px;
+	text-decoration:none;
+	color:#005a29;
+	font:bold 12px/28px Tahoma, Arial, Helvetica, sans-serif;
+}
+.jqueryslidemenu ul li a.selectedmenu
+{
+width: 150px;
+display: block;
+text-indent: 10px;
+border-bottom: 0px solid #ffffff; /*THEME CHANGE HERE*/
+padding: 0px 0px;
+text-decoration: none;
+font-weight: normal;
+color: #005a29;
+background:url(../images/drop_bg.png) left top no-repeat;
+height:24px;
+line-height:24px;
+margin-bottom:1px;
+}
+.jqueryslidemenu ul li a[class ="selectedmenu"]{
+
+width: 150px;
+display: block;
+text-indent: 10px;
+border-bottom: 0px solid #ffffff; /*THEME CHANGE HERE*/
+padding: 0px 0px;
+text-decoration: none;
+font-weight: normal;
+color: #005a29;
+background:url(../images/drop_bg.png) left top no-repeat;
+height:24px;
+line-height:24px;
+margin-bottom:1px;
+}
+
+* html .jqueryslidemenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+width: 150px;
+display: block;
+text-indent: 10px;
+border-bottom: 0px solid #ffffff; /*THEME CHANGE HERE*/
+padding: 0px 0px;
+text-decoration: none;
+color:#005a29;
+	font:bold 12px/28px Tahoma, Arial, Helvetica, sans-serif;
+
+}
+
+
+.jqueryslidemenu ul li a:link, .jqueryslidemenu ul li a:visited{
+float:left;
+	padding:0 20px;
+	margin:0 0px;
+	text-decoration:none;
+	color:#005a29;
+	font:bold 12px/28px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.jqueryslidemenu ul li ul li a:link, .jqueryslidemenu ul li ul li a:visited{
+float:left;
+	padding:0 20px;
+	margin:0 0px;
+	text-decoration:none;
+	color:#005a29;
+	font:bold 12px/28px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.jqueryslidemenu ul li a:hover{
+float:left;
+	padding:0 20px;
+	margin:0 0px;
+	text-decoration:none;
+	color:#005a29;
+	font:bold 12px/28px Tahoma, Arial, Helvetica, sans-serif;
+	background:url(../images/hover_arrow.jpg) top center no-repeat;
+
+}
+	
+/*1st sub level menu*/
+.jqueryslidemenu ul li ul{
+position: absolute;
+left: 0;
+display: block;
+visibility: hidden;
+width: 150px;
+font-weight:normal;
+
+
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.jqueryslidemenu ul li ul li{
+width: 150px;
+color: #005a29!Important;
+background:none!Important;
+font-weight: normal!Important;
+color: #005a29!Important;
+}
+.jqueryslidemenu ul li ul li a{
+width: 150px;
+display: block;
+text-indent: 5px;
+border-bottom: 0px solid #ffffff; /*THEME CHANGE HERE*/
+padding: 0px!Important;
+text-decoration: none;
+font-weight: normal!Important;
+color: #005a29!Important;
+background:url(../images/drop_bg.png) left top no-repeat;
+height:24px;
+line-height:24px!Important;
+margin-top:0px!Important;
+
+}
+.jqueryslidemenu ul li ul li a:hover{
+width: 150px;
+display: block;
+text-indent: 5px;
+border-bottom: 0px solid #ffffff; /*THEME CHANGE HERE*/
+padding: 0px!Important;
+text-decoration: none;
+font-weight: bold!Important;
+color: #005a29;
+background:url(../images/drop_bg_hover.png) left top no-repeat;
+height:24px;
+line-height:24px!Important;
+margin-top:0px!Important;
+
+}

@@ -1,0 +1,143 @@
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:99999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#a3a1a1;}
+#colorbox{}
+    #cboxContent{margin-top:32px; overflow:visible;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{padding:1px;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #cboxLoadingOverlay{}
+        #cboxTitle{position:absolute; top:-22px; left:0; color:#000;}
+        #cboxCurrent{position:absolute; top:-22px; right:205px; text-indent:-9999px;}
+        #cboxSlideshow, #cboxPrevious, #cboxNext, #cboxClose{text-indent:-9999px; width:34px; height:34px; position:absolute; top:6px; background:url(../images/controls_new.png) 	no-repeat 0 0;}
+        #cboxPrevious{background-position:0px 0px;}
+        #cboxPrevious.hover{background-position:0px -25px;}
+        #cboxNext{background-position:-25px 0px; right:22px;}
+        #cboxNext.hover{background-position:-25px -25px;}
+        #cboxClose{background-position:-45px 0px; right:0; margin-top:2px; margin-right:13px;}
+        #cboxClose.hover{background-position:-45px -38px;}
+        .cboxSlideshow_on #cboxPrevious, .cboxSlideshow_off #cboxPrevious{right:66px;}
+        .cboxSlideshow_on #cboxSlideshow{background-position:-75px -25px; right:44px;}
+        .cboxSlideshow_on #cboxSlideshow.hover{background-position:-100px -25px;}
+        .cboxSlideshow_off #cboxSlideshow{background-position:-100px 0px; right:44px;}
+        .cboxSlideshow_off #cboxSlideshow.hover{background-position:-75px -25px;}
+		
+	
+	
+.enquiry_popup{
+		
+width:286px;
+	overflow:hidden !important;
+
+	margin:25px;
+	background:#ffffff url(../images/Popup_bg.jpg) repeat-x left bottom;
+
+  padding:10px 35px 10px 35px;
+  float:left;
+  border:1px solid #fff;
+ 	-webkit-box-shadow: 0px 3px 0 0px #6f6f6f;
+	box-shadow: 0 0 20px 10px #6f6f6f;
+			/* For IE 8 */
+	-ms-filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa');
+			/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#aaaaaa');
+	
+	
+	
+
+}
+
+.enquiry_popup1{
+		
+width:300px;
+	overflow:hidden !important;
+
+	margin:25px;
+	background:#ffffff;
+	behavior: url(PIE.htc);
+  padding:10px 15px 10px 20px;
+  float:left;
+ 	-webkit-box-shadow: 0px 3px 0 0px #6f6f6f;
+	box-shadow: 0 0 20px 10px #6f6f6f;
+
+	
+	
+	
+
+}
+
+
+
+.EnquiryCounty{
+	margin:0px;
+	width:286px;
+	padding:0px;
+	}
+.EnquiryCounty h1{
+	margin:0px;
+	width:286px;
+	font:bold 18px Tahoma;
+	color:#065A2D;
+	padding:0 0 10px 0;
+	}
+.EnquiryCounty p{
+	margin:0px;
+	width:286px;
+	font:normal 12px Tahoma;
+	color:#424242;
+	padding:5px 0px;
+	}
+.EnquiryCounty ul{
+	margin:0px;
+	width:286px;
+	padding:0px;
+	}
+.EnquiryCounty ul li{
+	margin:0px;
+	width:286px;
+	padding:0px 0 5px 0;
+	list-style:none;
+	}
+.EnquiryCounty table tr td{
+	color:#424242;
+	font:normal 12px Tahoma, Arial, Helvetica, sans-serif;
+	}
+.TextBoxCount{
+	margin:0px;
+	width:270px;
+	background:url(../images/text_box.png) no-repeat left top;
+	padding:7px 10px 7px 10px;
+	border:none;
+  font:normal 12px Tahoma;
+  color:#616060;
+  overflow:hidden;
+	}
+.TextAreaCount{
+	margin:0px;
+	width:270px;
+	height:74px;
+	background:url(../images/text_area.png) no-repeat left bottom !important;
+	padding:7px 10px 7px 10px;
+	border:none;
+  font:normal 12px Tahoma;
+  color:#616060;
+  overflow:hidden !important;
+	}

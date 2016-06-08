@@ -1,0 +1,294 @@
+
+
+
+
+/*****Custom Classes*****/
+.clearing { clear: both; }
+.clearfix { overflow: hidden; }
+.last { margin-bottom: 0; }
+.screenReader { left: -9999px; position: absolute; top: -9999px; }
+
+/*****Basic Layout*****/
+
+div#sidebar { float: left; font-size: 12px; line-height: 18px;  width: 231px; margin:0px; padding:0px; }
+
+/*****Accordion Styles*****/
+ul#accordion, ul#accordion ul { list-style:none; margin:0px !important; padding:0px;}
+ul#accordion {  }
+ul#accordion li { padding-bottom:10px; }
+ul#accordion ul li { background:url(../images/circle.png) no-repeat left center;  padding:0px; margin:0px  }
+ul#accordion ul li:last-child {}
+ul#accordion a.heading { 
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	font-family:"Kozuka Gothic Pro B";
+	font-size:16px;
+   src: url('css/Kozuka Gothic Pro B');
+	font-weight:bold;
+	color:#000000;
+	padding: 10px 5px;
+	text-decoration: none;
+	background: url(../images/ac_pluse.png) no-repeat left top; color: #272727; padding:10px 0 10px 35px;
+	margin-bottom:-10px; 
+}
+ul#accordion a.heading:hover { background: url(../images/ac_minus.png) no-repeat left top; color: #CCCCCC; padding:10px 0 10px 35px; color: #076533;  }
+ul#accordion li.ui-accordion-selected a.heading, ul#accordion li.current a.heading { background: url(../images/ac_minus.png) no-repeat left top; color: #076533; padding:10px 0 10px 35px;   }
+ul#accordion li ul a { color: #025185; text-decoration: none; border-bottom:1px dotted #666666;color: #999; display:block; padding:0 0 3px 0; }
+ul#accordion li ul a:hover { border-bottom: none; border-bottom:1px dotted #666666;color: #999; padding:0 0 3px 0; }
+ul#accordion li ul .date { padding-right: 10px; }
+ul#accordion li ul .count { padding-left: 10px; }
+
+/*****Additional Custom Accordion Styles*****/
+body#customAccordion ul#accordion li ul { display: none; }
+body#customAccordion ul#accordion li.current ul { display: block; }
+
+
+.rnr_banner123 {
+	width:702px;
+	border:3px solid #99c55b;
+	overflow:hidden;
+	border-top:none;
+	padding:0px;
+	-pie-background: #ffffff;
+	-webkit-border-bottom-left-radius: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	-moz-border-radius-bottomright: 15px;
+    border-radius: 0 0 15px 15px;
+    behavior: url(PIE.htc);
+	margin:0px;
+}
+
+.rnr_banner1234 {
+	width:674px;
+	padding:22px 14px 10px 14px;
+	margin:0px;
+}
+.rnr_banner1235 {
+	width:666px;
+	border:1px solid #dedede;
+	overflow:hidden;
+	padding:3px;
+	background:#FFFFFF;
+	-pie-background: #ffffff;
+    -webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+    border-radius:15px;
+    behavior: url(PIE.htc);
+	margin:0px;
+	}
+
+.rnr_banner1235 {
+	width:666px;
+	border:1px solid #dedede;
+	overflow:hidden ;
+	padding:3px;
+	background:#FFFFFF;
+	-pie-background: #ffffff;
+    -webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+    border-radius:15px;
+    behavior: url(PIE.htc);
+	margin:0px;
+	}
+.rnr_banner12358 {
+	width:666px;
+	border:1px solid #dedede !important;
+	overflow:hidden !important;
+	padding:3px;
+	background:#FFFFFF;
+	-pie-background: #ffffff;
+    -webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+    border-radius:15px;
+    behavior: url(PIE.htc);
+	margin:0px;
+	}
+.rnr_banner126 {
+	width:666px;
+	overflow:hidden;
+	padding:0px;
+	background:#FFFFFF url(../images/ac_bc.png) no-repeat left top !important;
+	-pie-background: #ffffff;
+    -webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+    border-radius:15px;
+    behavior: url(PIE.htc);
+	margin:0px;
+	}
+.CriteriaCount {
+	width:215px;
+	overflow:hidden;
+	padding:5px 0 0 5px;
+	margin:0px;
+	}
+.CriteriaCount_left {
+	width:60px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	}
+.CriteriaCount_right {
+	width:150px;
+	overflow:hidden;
+	padding:0px 0 0 5px;
+	margin:0px;
+	}
+.CriteriaCount_right h1 {
+	width:150px;
+	margin:0px;
+	padding:0px 0 15px 0;
+	font-family:"Kozuka Gothic Pro B";
+	font-size:16px;
+   src: url('css/Kozuka Gothic Pro B');
+	color:#1d1d1d;
+	}
+
+.CriteriaCount1 {
+	width:170px;
+	overflow:hidden;
+	padding:5px 0 0 5px;
+	margin:0px;
+	}
+.CriteriaCount_left1 {
+	width:60px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	}
+.CriteriaCount_right1 {
+	width:105px;
+	overflow:hidden;
+	padding:0px 0 0 5px;
+	margin:0px;
+	}
+.CriteriaCount_right1 h1 {
+	width:105px;
+	margin:0px;
+	padding:0px 0 15px 0;
+	font-family:"Kozuka Gothic Pro B";
+	font-size:16px;
+   src: url('css/Kozuka Gothic Pro B');
+	color:#1d1d1d;
+	}
+.CriteriaCount2 {
+	width:205px;
+	overflow:hidden;
+	padding:5px 0 0 5px;
+	margin:0px;
+	}
+.CriteriaCount_left2 {
+	width:60px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	}
+.CriteriaCount_right2 {
+	width:140px;
+	overflow:hidden;
+	padding:0px 0 0 5px;
+	margin:0px;
+	}
+.CriteriaCount_right2 h1 {
+	width:140px;
+	margin:0px;
+	padding:0px 0 15px 0;
+	font-family:"Kozuka Gothic Pro B";
+	font-size:16px;
+   src: url('css/Kozuka Gothic Pro B');
+	color:#1d1d1d;
+	}
+.CriteriaCount3 {
+	width:275px;
+	overflow:hidden;
+	padding:5px 0 0 5px;
+	margin:0px;
+	}
+.CriteriaCount_left3 {
+	width:60px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	}
+.CriteriaCount_right3 {
+	width:210px;
+	overflow:hidden;
+	padding:0px 0 0 5px;
+	margin:0px;
+	}
+.CriteriaCount_right3 h1 {
+	width:210px;
+	margin:0px;
+	padding:0px 0 15px 0;
+	font-family:"Kozuka Gothic Pro B";
+	font-size:16px;
+   src: url('css/Kozuka Gothic Pro B');
+	color:#1d1d1d;
+	}
+
+
+.CriteriaCount_right3 ul {
+	width:210px;
+	margin:0px;
+	padding:0px;
+	}
+.CriteriaCount_right3 ul li{
+	margin:0px 0 5px 0 !important;
+	width:200px;
+	padding:0px 0 0 10px !important;
+	list-style:none;
+	font:normal 12px Tahoma !important;
+	color:#424242;
+	background:url(../images/dot.png) no-repeat left center !important;
+	}
+	
+ul#accordion1, ul#accordion1 ul { list-style:none; margin:0px !important; padding:0px;}
+ul#accordion1 {  }
+ul#accordion1 li { padding-bottom:10px; }
+ul#accordion1 ul li { background:url(../images/circle.png) no-repeat left center;  padding:0px; margin:0px  }
+ul#accordion1 ul li:last-child {}
+ul#accordion1 a.heading { 
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	font-family:"Kozuka Gothic Pro B";
+	font-size:16px;
+   src: url('css/Kozuka Gothic Pro B');
+	font-weight:bold;
+	color:#000000;
+	padding: 10px 5px;
+	text-decoration: none;
+	background: url(../images/ac_pluse.png) no-repeat left top; color: #272727; padding:10px 0 10px 35px;
+	margin-bottom:-10px; 
+}
+ul#accordion1 a.heading:hover { background: url(../images/ac_minus.png) no-repeat left top; color: #CCCCCC; padding:10px 0 10px 35px; color: #076533;  }
+ul#accordion1 li.ui-accordion-selected a.heading, ul#accordion1 li.current a.heading { background: url(../images/ac_minus.png) no-repeat left top; color: #076533; padding:10px 0 10px 35px;   }
+ul#accordion1 li ul a { color: #025185; text-decoration: none; border-bottom:1px dotted #666666;color: #999; display:block; padding:0 0 3px 0; }
+ul#accordion1 li ul a:hover { border-bottom: none; border-bottom:1px dotted #666666;color: #999; padding:0 0 3px 0; }
+ul#accordion1 li ul .date { padding-right: 10px; }
+ul#accordion1 li ul .count { padding-left: 10px; }
+
+/*****Additional Custom Accordion Styles*****/
+body#customAccordion ul#accordion1 li ul { display: none; }
+body#customAccordion ul#accordion1 li.current ul { display: block; }

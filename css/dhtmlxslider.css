@@ -1,0 +1,69 @@
+/* Default skin */
+.dhtmlxSlider 
+{ 	
+  	position:relative;
+	overflow:hidden;
+  	height:21px;
+  	left:0;
+	padding:0 0px 0 0px;
+	cursor:pointer;
+}
+
+.dhtmlxSlider .selector 
+{
+	position:absolute;
+	overflow:hidden;
+  	height:100%;
+	width:8px;
+	left:8px;
+	cursor:pointer;
+}
+
+.dhtmlxSlider .leftSide 
+{
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  height:100%;
+  z-index:1000;
+}
+
+.dhtmlxSlider .leftZone 
+{
+	position:absolute;
+	top:0px;
+	left:13px;
+    height:100%;
+    background-color:#fff;
+}
+
+.dhtmlxSlider .rightSide 
+{
+  position:absolute;
+  right:0px;
+  top:0px;
+  width:7px;
+  height:100%;
+  background-color:#fff;  
+}
+
+.dhtmlxSlider .rightZone 
+{
+  position:absolute;
+  left:3px;
+  top:0px;
+  height:100%;
+  background-color:#ccc;
+}
+.insur-amt{
+	color:#187042;
+	font-size:14px;
+	font-weight:bold;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding:8px 0 0 0px;
+        margin:0 0px;
+
+}
+/* End default skin */
